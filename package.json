@@ -1,0 +1,41 @@
+{
+  "name": "vue-listshow",
+  "version": "0.1.0",
+  "description": "vue-listshow is a Vue component to create a and display you lists in a beautiful sliding cards.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiloudiMohamed/vue-listshow.git"
+  },
+  "homepage": "https://github.com/MiloudiMohamed/vue-listshow#readme",
+  "bugs": {
+    "url": "https://github.com/MiloudiMohamed/vue-listshow/issues"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "vuejs",
+    "vue-listshow",
+    "vue-component",
+    "list",
+    "card",
+    "vue-card",
+    "component"
+  ],
+  "author": "Miloudi Mohamed",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.14"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.5.22"
+  }
+}
